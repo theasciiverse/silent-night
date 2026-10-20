@@ -7,8 +7,8 @@ the forest's sound. Rust + crossterm, `src/main.rs` (scene) and
 checked first whether a good terminal snow existed (snowmachine, its Go
 port, rsnow, weathr: none had wind, drift or depth worth packaging).
 
-- Remote: `origin` is to be github.com/theasciiverse/silent-night
-  (private), branch `main`.
+- Remote: `origin` is github.com/theasciiverse/silent-night (private),
+  branch `main`.
 - Release: tag `v<version>-av.<n>` (first `v1.0.0-av.1`); the workflow
   builds static musl Linux, macOS and Windows on `*-av.*` tags.
 - av starts it as `silent-night`; m toggles the sound, any other key,
