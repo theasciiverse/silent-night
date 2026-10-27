@@ -30,3 +30,18 @@ Session log: `RUST_LOG=debug silent-night 2>silent-night.log` (start,
 every key and resize, gusts, falling snow, owl and sleigh, a snapshot each
 second). To listen to the mix without a screen: `silent-night
 --render-sound night.wav 120` writes two minutes of it.
+
+## Play
+
+With [av](https://asciiverse.sh), the Asciiverse client:
+
+```
+av install silent-night
+av play silent-night
+```
+
+Or download the archive for your system from this repository's Releases,
+unpack it and run `./silent-night` (`silent-night.exe` on Windows).
+
+To build it yourself: `cargo run --release`.
+
