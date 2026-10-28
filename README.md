@@ -40,8 +40,5 @@ av install silent-night
 av play silent-night
 ```
 
-Or download the archive for your system from this repository's Releases,
-unpack it and run `./silent-night` (`silent-night.exe` on Windows).
-
 To build it yourself: `cargo run --release`.
 
